@@ -81,7 +81,7 @@ a {
 .caption {
 	display: flex;
 	justify-content: center;
-	gap: 96px;
+	gap: 64px;
 	font-family: 'Roboto-Thin', sans-serif;
 }
 #quote-section {
