@@ -82,7 +82,7 @@ a {
 	display: flex;
 	justify-content: center;
 	gap: 96px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto-Thin', sans-serif;
 }
 #quote-section {
 	background-color: #e5e7eb;
@@ -120,4 +120,18 @@ a {
 .action-btn {
 	border-radius: 1ch;
 	border: 1px solid white;
+}
+.footer-height {
+	height: 10vh;
+}
+.copyright {
+	text-align: center;
+	font-family: 'Roboto-Thin', sans-serif;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.small-action-text {
+	font-family: 'Roboto-Thin', sans-serif;
+	color: #e5e7eb;
 }
