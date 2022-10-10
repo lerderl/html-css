@@ -63,3 +63,18 @@ a {
 	border-radius: 1ch;
 	border: solid #3882f6;
 }
+.center {
+	text-align: center;
+	font-family: 'Roboto-Bold', sans-serif;
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1f2937;
+}
+figure{
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+}
+.img-item {
+	border-radius: 5%;
+}
