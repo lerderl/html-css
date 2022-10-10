@@ -14,8 +14,17 @@
 	font-family: 'Roboto';
 	src: url(Roboto/Roboto-Regular.ttf) format('truetype');
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .bg-color {
 	background-color: #1f2937;
+}
+.header {
+	padding-top: 5px;
+	padding-left: 100px;
 }
 .container {
 	padding-top: 5px;
@@ -25,16 +34,28 @@
 a {
 	text-decoration: none;
 	color: #e5e7eb;
+	list-style: none;
+}
+li {
+	list-style-type: none;
 }
 .row {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 .item {
 	flex: 1;
 }
 .link {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	gap: 16px;
 }
 .main-text {
 	font-family: 'Roboto-Bold', sans-serif;
