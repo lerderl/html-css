@@ -82,4 +82,19 @@ a {
 	display: flex;
 	justify-content: center;
 	gap: 96px;
+	font-family: 'Roboto', sans-serif;
+}
+#quote-section {
+	background-color: #e5e7eb;
+	display: flex;
+	align-items: center;
+}
+.quote {
+	font-family: 'Roboto-Italic', sans-serif;
+	font-size: 36px;
+	color: #1f2937;
+	margin-top: 100px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 100px;
 }
