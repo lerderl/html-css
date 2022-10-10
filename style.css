@@ -43,7 +43,7 @@ li {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 100px;
+	margin-left: 5px;
 	margin-right: 100px;
 }
 .item {
@@ -75,6 +75,10 @@ li {
 }
 #top-margin {
 	margin-top: 3%;
+}
+#figure-margin {
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
 .blue {
 	background-color: #3882f6;
