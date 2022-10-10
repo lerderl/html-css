@@ -70,11 +70,16 @@ a {
 	font-weight: bolder;
 	color: #1f2937;
 }
-figure{
+.img-center {
 	display: flex;
 	justify-content: center;
 	gap: 16px;
 }
 .img-item {
 	border-radius: 5%;
+}
+.caption {
+	display: flex;
+	justify-content: center;
+	gap: 96px;
 }
