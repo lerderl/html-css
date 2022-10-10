@@ -94,7 +94,30 @@ a {
 	font-size: 36px;
 	color: #1f2937;
 	margin-top: 100px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 100px;
+}
+#action-call {
+	background-color: #3882f6;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	margin-top: 100px;
 	margin-left: 150px;
 	margin-right: 150px;
 	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+	gap: 96px;
+	border-radius: 5px;
+}
+.action-call-element {
+	margin-top: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 50px;
+}
+.action-btn {
+	border-radius: 1ch;
+	border: 1px solid white;
 }
