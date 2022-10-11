@@ -43,11 +43,10 @@ li {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 5px;
-	margin-right: 100px;
 }
 .item {
 	flex: 1;
+	margin-right: 100px;
 }
 .link {
 	display: flex;
